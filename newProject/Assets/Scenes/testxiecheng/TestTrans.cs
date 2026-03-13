@@ -12,7 +12,8 @@ public class TestTrans : MonoBehaviour
         StartCoroutine(ssk());
 
         Invoke("gok", 5f);
-
+        print("hello world");
+        
     }
     void gok()
     {
