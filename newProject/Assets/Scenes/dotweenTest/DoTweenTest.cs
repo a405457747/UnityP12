@@ -32,6 +32,9 @@ public class DoTweenTest : MonoBehaviour
         q.AppendInterval(1f);
         q.InsertCallback(3, () => { });
         */
+        t.ElapsedPercentage(true);
+        t.Duration(true);
+        //t.fullPosition
     }
 
     IEnumerator Wait()
